@@ -1,0 +1,65 @@
+*{
+    text-align: center;
+    background-color: rgb(255, 227, 155);
+}
+h1{
+    color: rgb(22, 111, 10);
+    font-size: 40px;
+
+}
+canvas{
+    border: 2px solid rgb(0, 51, 128);
+    background-color: rgb(121, 184, 26);
+    position: relative;
+    top: 10px;
+    bottom: 40px;
+}
+#score{
+    width: 100%;
+    font-size: 30px ;
+    position: relative;
+    top: 10px;
+    font-weight: 600;
+    color: rgb(110, 22, 188);
+}
+#msg{
+    color: rgb(83, 214, 23);
+    font-size: 15px;
+    font-weight: 600;
+}
+button{
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    height: 40px;
+    border: none;
+    width: 200px;
+    position: relative;
+    left: -20px;
+}
+button:hover{
+    background-color: rgb(38, 190, 38);
+    color: black;
+}
+.flex{
+    display: flex;
+    position: relative;
+   flex-direction: row;
+   width: 30%;
+    padding: 5px;
+    background-color: none;
+    margin: 10px auto;
+    
+}
+@media (max-width:800px){
+button{
+    position: relative;
+    left: -120px;
+}
+.flex{
+    width: 100%;
+}
+}
